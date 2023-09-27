@@ -1,0 +1,285 @@
+body {
+  font-size: 20px;
+}
+
+/* -------------------------------- NAV BAR ----------------------------------------- */
+nav {
+  background-color:#01764A;
+  color: #F5F5F5;
+  height: 8.5rem;    
+}
+
+.navbar-brand {
+  color: #F5842D;
+  font-family: 'Suez One', serif; 
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.navbar-brand:hover{
+  color: #F5842D;
+}
+
+.nav-link {
+  color: #F5F5F5;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.nav-link:focus{
+  color:#F5842D;
+}
+
+.nav-link:hover{
+  color:#F5842D;
+}
+
+#nav-padding {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+ul {
+  padding-right: 3rem;
+}
+
+ul li {
+  padding: 0rem 0.6rem;
+}
+
+.button {
+  background-color: #F5842D;
+  border: none;
+  color: #F5F5F5;
+  padding: 0.6rem 2.2rem;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 10px 2px;
+  border-radius: 30px;
+  box-shadow: 0px 2.23483px 2.23483px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media(max-width:500px) {
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+
+  #nav-padding {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+
+
+@media(max-width:768px) {
+  nav {
+    height: 7rem;
+  }
+}
+
+@media(max-width:576px) {
+  nav {
+    height: 5.7rem;
+  }
+}
+
+
+/* ------------------------------ HEADER ------------------------------------  */
+.container-xl {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+@media(min-width:1200px) {
+  .container-xl {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+  
+.card p {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+@media(MAX-width:768PX) {
+  .card p {
+    font-size: 0.8rem;
+  }
+}
+
+
+/* ---------------------------------SECTION 1----------------------------------    */
+.section-color-a {
+  background-color: #F5F5F5;
+  color: #01764A;
+}
+
+.h2-color-a {
+  font-family: 'Suez One', serif; 
+}
+
+.p-color-a {
+  font-weight: 300;
+  color: #01764A;
+}
+
+.feature p {
+  color: black;
+}
+
+@media (max-width:768px) {
+  .p-color-a, .p-color-b{
+      font-size: 1rem;
+  }
+
+  .display-1 {
+    font-size: 2rem;
+  }
+}
+
+@media(max-width:699px) {
+  .p-color-a, .p-color-b {
+    font-size: 0.8rem;
+  }
+}
+
+#quiero {
+  margin: auto;
+}
+/* ------------------------------ SECTION 2 ------------------------------------  */
+.section-color-b {
+  background-color: #01764A;
+}
+
+.h2-color-b {
+  font-family: 'Suez One', serif; 
+  color:#F5842D
+}
+
+.p-color-b {
+  color: #F5F5F5;
+  font-weight: 300;
+}
+
+.boxes img{
+  padding: 2rem;
+  padding-bottom: 3rem;  
+}
+
+@media(max-width:482px) {
+  .boxes img {
+    padding: 2rem 0rem;
+  }
+}
+
+
+/* ------------------------------ SECTION 3 ------------------------------------  */
+/* ------------------------------ SECTION 4 ------------------------------------  */
+@media(max-width:482px) {
+  .redes {
+    height: 12%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media(max-width:768px) {
+  .redes {
+    margin-bottom: 2rem;
+  }
+}
+
+
+/* ------------------------------ CAROUSEL ------------------------------------  */
+.card {
+  border: none;
+  width: 22rem;
+  background-color: #F5F5F5;
+  border-radius: 30px;
+}
+
+#card-2 {
+  background-color: transparent;
+}
+
+.perfil {
+  width: 25%;
+}
+
+.card-reseña p{
+  font-size: 0.8rem;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 6%
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: url("../img/arrow-left.svg");
+}
+
+.carousel-control-next-icon {
+    background-image: url("../img/arrow-right.svg");
+}
+
+
+@media (min-width:993px) {
+  .carousel-item {
+      transition: none;
+  }
+}
+@media (max-width:992px) {
+  .carousel-item {
+      transition: transform .6s ease-in-out;
+  }
+}   
+
+
+/* ------------------------------ FORMULARIO ------------------------------------  */
+label {
+  font-family: 'Suez One', serif; 
+}
+
+input[type="text"],
+input[type="email"],
+#comentario{
+border: 2px solid #01764A;
+border-radius: 15px;
+padding: 0.5rem 2rem;
+}
+
+@media (max-width:768px) {
+  #enviar-form {
+      margin-bottom: 5rem;
+      padding: auto;
+  }
+}
+
+
+/* ------------------------------ FOOTER ------------------------------------  */
+h6 {
+  font-family: 'Suez One', serif; 
+  color: #F5842D;
+  font-size: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #F5F5F5;
+}
+
+.contacto-footer {
+  font-weight: 700;
+}
+
