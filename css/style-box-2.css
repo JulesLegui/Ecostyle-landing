@@ -183,9 +183,9 @@ color:#F5842D
 }
 
 .boxes img{
-    padding: 4rem;  
-}
-
+    padding: 2rem;
+    padding-bottom: 3rem;  
+  }
 
 /*----------------------------- CAROUSEL ------------------------------------*/
 .card {
@@ -221,15 +221,15 @@ color:#F5842D
 
 @media (min-width:993px) {
     .carousel-item {
-        transition: none;
+        /*transition: none;*/
     }
-}
+  }
 
-@media (max-width:992px) {
+  @media (max-width:992px) {
     .carousel-item {
-        transition: transform .6s ease-in-out;
+        transition: transform .20s ease-in-out;
     }
-}   
+  }   
 
 @media(max-width:482px) {
     .redes {
